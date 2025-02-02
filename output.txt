@@ -1,0 +1,7 @@
+
+Lexeme          Token          
+--------------------------------
+int             Keyword        
+a               Identifier     
+=               Operator       
+30              Constant       
