@@ -72,7 +72,7 @@ char* getSubstring(char* str, int start, int end) {
 
 void lexicalAnalyzer(char* input, FILE* file) {
     int left = 0, right = 0;
-    int len = strlen	);
+    int len = strlen(input);
 
     fprintf(file, "\n%-15s %-15s\n", "Lexeme", "Token");
     fprintf(file, "--------------------------------\n");
